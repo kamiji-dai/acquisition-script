@@ -1,0 +1,25 @@
+{
+	"name": "storage-meet-test",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build --mode development",
+		"build:staging": "tsc && vite build --mode staging",
+		"build:production": "tsc && vite build --mode production",
+		"preview": "vite preview",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"jsdom": "^25.0.1",
+		"msw": "^2.6.6",
+		"typescript": "~5.6.2",
+		"vite": "^5.4.10",
+		"vitest": "^2.1.5"
+	},
+	"dependencies": {
+		"axios": "^1.7.9"
+	}
+}
