@@ -1,4 +1,4 @@
-# Acquisition Test
+# Acquisition - Script
 アクセス・CV計測用のスクリプトです。
 
 - アクセス計測
